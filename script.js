@@ -39,7 +39,7 @@ function calculate(firstOperand, secondOperand, operator) {
   }
   
 function updateDisplay() {
-    const display = document.querySelector('.calculator-screen');
+    const display = document.querySelector('.screen');
     
     display.value = calculator.displayValue;
 }
